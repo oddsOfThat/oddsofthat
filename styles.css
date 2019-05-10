@@ -9,8 +9,7 @@ ul{
     margin:0;
     font-size: 26px; 
   text-align: center;
-  justify-content: center;
-  align-items: center;
+  list-style-position: inside;
 }
 #Navmenu {
   background-color: #65c9ff;
