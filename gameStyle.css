@@ -1,0 +1,36 @@
+
+*{
+	align-content: center;
+	  text-align: center;
+ }
+
+ .form{
+	  background: white;
+	  align-content: center;
+	  text-align: center;
+
+	  margin: 3px 3px 3px 3px;
+ }
+
+ #longBox{
+		  background: white;
+ }
+
+ #latBox{
+		  background: white;
+ }
+
+ #answer{
+	 color: white;
+ }
+ #clue4{
+   border: 1px;
+   border-style: solid;
+   width:500px;
+   height:auto;
+ }
+ .clues{
+	 margin: 4px 4px 4px 4px;
+	 font-size: 20px;
+
+ }
