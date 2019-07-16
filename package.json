@@ -1,0 +1,24 @@
+{
+  "name": "oddsofthat.github.io",
+  "version": "1.0.0",
+  "description": "Website server side",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^1.19.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oddsOfThat/oddsofthat.github.io.git"
+  },
+  "author": "Aidan O'D",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oddsOfThat/oddsofthat.github.io/issues"
+  },
+  "homepage": "https://github.com/oddsOfThat/oddsofthat.github.io#readme"
+}

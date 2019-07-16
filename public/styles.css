@@ -1,0 +1,103 @@
+body {
+  background-color: white;
+  font-family: arial;
+  font-size: 32px;
+  margin: 0;
+}
+
+ul{
+    margin:0;
+    font-size: 26px;
+  text-align: center;
+  list-style-position: inside;
+}
+#Navmenu {
+  background-color: #65c9ff;
+  color: white;
+}
+
+#Navmenu ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+#Navmenu ul li {
+  text-align: center;
+  padding: 10px;
+  border-bottom: 2px solid black;
+}
+
+#Navmenu ul li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#Curpage {
+  background-color: lightgrey;
+  color: black;
+  font-weight: bold
+}
+
+#Navmenu ul li:hover {
+  background-color: lightgrey;
+  color: black;
+  font-weight: bold;
+}
+
+#Welcome {
+  padding-top: 5px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#Avatar {
+  max-width: 212px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#blankJoke{
+  margin-top: 60%;
+}
+.text {
+  margin-top: 10px;
+  text-align: center;
+  font-family: arial;
+  font-size: 32px;
+}
+.content{
+  margin-top:10px;
+  margin-bottom:0px;
+  text-align: center;
+  font-family: arial;
+  font-size: 26px;
+}
+.finalcontent{
+  margin-top:50px;
+  margin-bottom:70px;
+  font-family: arial;
+  font-size: 26px;
+  text-align: center;
+}
+
+@media screen and (min-width: 1200px) {
+  #Navmenu ul {
+    text-align: right;
+    font-size: 0px;
+  }
+
+  #Navmenu ul li {
+    display: inline-block;
+    border-left: 1px solid black;
+    border-bottom: 0px;
+    font-size: 16px;
+  }
+}
+
+#APIimg {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
