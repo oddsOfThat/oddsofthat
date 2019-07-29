@@ -119,7 +119,7 @@ function leaveComment() {
     "countryCode": countryCode,
     "comment": document.getElementById("countryComment").value
   };
-  console.log(countryCode);
+  //console.log(countryCode);
   if(countryCode!="??"){
   const options = {
     method: 'POST',
