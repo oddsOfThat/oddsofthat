@@ -1,0 +1,53 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>Aidan Likes Games</title>
+  <meta name="description" content="Aidan's home on the web">
+  <meta name="author" content="Aidan O'D">
+
+  <link rel="stylesheet" href="styles.css">
+  <script src="game.js"></script>
+  <link rel="stylesheet" type="text/css" href="gameStyle.css">
+
+</head>
+
+<body>
+  <div id=Navmenu>
+    <ul>
+      <li><a href="./index.html"> About </a> </li>
+      <li><a href="./things.html"> Things </a> </li>
+      <li><a href="./stuff.html"> Stuff </a> </li>
+      <li id=Curpage> Game </li>
+    </ul>
+  </div>
+
+
+  <h3> Enter a latitude and longitude, then guess the country from the clues </h1>
+  <form class="form" action="submitted">
+    Latitude: <input  class="form" id="latBox"  type="number " ><br>
+    Longitude: <input class="form" id="longBox" type="number " ><br>
+    <button class="form" type="button" onclick="submitted()"> Give me the clues!</button>
+    <button class="form" type="button" onclick="randomm()"> Give me random</button>
+    <button class="form" type="button" onclick="LocateMe()">Locate Me</button>
+  </form>
+
+    <p class="clues" id="clue1"> </P>
+    <p class="clues" id="clue2"> </P>
+    <p  class="clues" id="clue3"> </P>
+    <img id="clue4" src=""></img>
+
+    <p>Leave a comment about the country, help the next guesser: <br></p> 
+    <p class="clues" id="comment"> </p>
+    <input class="form" id="countryComment" type="text " >
+    <button class="form" type="button" onclick="leaveComment()">Submit comment</button>
+    <h3> What's the country? Highlight the hidden text below </h2>
+    <p id="answer"> </p>
+
+  </body>
+
+
+</body>
