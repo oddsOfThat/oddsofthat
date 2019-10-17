@@ -10,7 +10,7 @@ const port = 3000;
 const countryData = [];
 var fs = require('fs');
 
-//app.get('/',(req,res) => res.send("Hello World! I'm a response"));
+app.get('/',(req,res) => res.send("Hello World! I'm a response"));
 
 app.listen(port, () => console.log(`Listening on port: ${port}`));
 app.use(express.static('public'));
