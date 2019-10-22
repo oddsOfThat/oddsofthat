@@ -83,7 +83,7 @@ a{
   text-align: center;
 }
 
-@media screen and (min-width: 830px) {
+@media screen and (min-width: 1200px) {
   #Navmenu ul {
     text-align: right;
     font-size: 0px;
