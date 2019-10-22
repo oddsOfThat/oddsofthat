@@ -16,7 +16,7 @@ app.listen(port, () => console.log(`Listening on port: ${port}`));
 app.use(express.static('public'));
 app.use(express.json());
 
-.get('/', (req, res) => res.render('public/index'))
+app.get('/', (req, res) => res.render('public/index'))
 app.post("/api", (req, res) => {
     data= req.body;
     //Array saving cureent session, not needed
