@@ -5,7 +5,7 @@ const datastore = require("nedb");
 const database = new datastore('database.db');
 database.loadDatabase();
 
-const port = 3000;
+const port =process.env.PORT || 3000 ;
 
 const countryData = [];
 var fs = require('fs');
