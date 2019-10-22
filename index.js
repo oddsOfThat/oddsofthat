@@ -10,16 +10,13 @@ const port = 3000;
 const countryData = [];
 var fs = require('fs');
 
-app.get('/',(req,res) => res.send("Hello World! I'm a response"));
+//app.get('/',(req,res) => res.send("Hello World! I'm a response"));
 
 app.listen(port, () => console.log(`Listening on port: ${port}`));
 app.use(express.static('public'));
 app.use(express.json());
 
-
-
-
-
+.get('/', (req, res) => res.render('public/index'))
 app.post("/api", (req, res) => {
     data= req.body;
     //Array saving cureent session, not needed
