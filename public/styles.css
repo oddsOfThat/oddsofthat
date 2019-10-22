@@ -28,7 +28,7 @@ ul{
   border-bottom: 2px solid black;
 }
 
-#Navmenu ul li a {
+#Navmenu  a {
   text-decoration: none;
   color: inherit;
 }
