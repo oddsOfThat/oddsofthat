@@ -28,11 +28,13 @@ ul{
   border-bottom: 2px solid black;
 }
 
-#Navmenu  a {
+#Navmenu ul a li {
   text-decoration: none;
-  color: inherit;
 }
-
+a{
+  text-decoration: none;
+  color: black;
+}
 #Curpage {
   background-color: lightgrey;
   color: black;
@@ -81,17 +83,24 @@ ul{
   text-align: center;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 830px) {
   #Navmenu ul {
     text-align: right;
     font-size: 0px;
   }
-
-  #Navmenu ul li {
+  #Navmenu ul  li {
     display: inline-block;
     border-left: 1px solid black;
     border-bottom: 0px;
     font-size: 16px;
+    text-decoration: none;
+  }
+  #Navmenu ul a li {
+    display: inline-block;
+    border-left: 1px solid black;
+    border-bottom: 0px;
+    font-size: 16px;
+    text-decoration: none;
   }
 }
 
